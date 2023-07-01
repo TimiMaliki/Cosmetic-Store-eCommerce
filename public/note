@@ -1,0 +1,11 @@
+ $tertiary: #231A36;-somehow blue
+ $general: #EFEFEF;-somehow white
+ $secondary: #1F1F26;-somehow dark
+ $text-color: #FFFFFF;-white
+ $text-base: #426666;-
+
+
+ text-color:#B3B7BC;-somehow whitesh;
+ bg-#426666;-bluish;
+
+   width: 320px;

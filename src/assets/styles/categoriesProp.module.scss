@@ -1,0 +1,19 @@
+@import './breakpoints.scss';
+
+.categoriesProp{
+    @include smallDevices{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+       h2{
+        font-size: 15px;
+        color: #1F1F26;
+        font-weight: bold;
+       }
+       p{
+        font-size: 14px;
+        color: #231A36;
+        width: 200px;
+        height: 30px;
+       }
+    }
+}

@@ -1,0 +1,23 @@
+@import './breakpoints.scss';
+
+.header {
+    @include smallDevices {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 10px 5px;
+        background: #426666;;
+
+        .headerText {
+            width: 160px;
+            text-align: center;
+            margin-top: 0.3rem;
+        }
+
+        img {
+            width: 140px;
+            height: 100px;
+            border-radius: 4px;
+        }
+    }
+
+}

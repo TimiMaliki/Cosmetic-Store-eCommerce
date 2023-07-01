@@ -4,14 +4,14 @@ $largeDevices : 900px;
 $largerDevices : 1100px;
 $xtralargeDevices : 1200px;
 
-@mixin smallDevice{
+@mixin smallDevices{
     @media(max-width:$smallDevices){
         @content;
     }
 }
 
 
-@mixin mediumDevice{
+@mixin mediumDevices{
     @media(min-width:$mediumDevices){
         @content;
     }
@@ -19,14 +19,14 @@ $xtralargeDevices : 1200px;
 
 
 
-@mixin largeDevice{
+@mixin largeDevices{
     @media(min-width:$largeDevices){
         @content;
     }
 }
 
 
-@mixin xtralargeDevice{
+@mixin xtralargeDevices{
     @media(min-width:$xtralargeDevices){
         @content;
     }
