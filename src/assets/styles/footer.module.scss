@@ -1,0 +1,87 @@
+@import './breakpoints.scss';
+
+.footer{
+@include smallDevices{
+    background:#EFEFEF;
+
+    .subWrapper{
+        padding: 10px 20px;
+    }
+    button{
+        width: 100px;
+        height: 35px;
+        background: #fff;
+        border: 2px solid red;
+        transform: translateX(80px);
+    }
+    .footerBody{
+        background: #000;
+        .bodyWrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr  1fr ;
+            background: #000;
+            color: #fff;
+            padding: 10px 10px;
+            gap: 1rem;
+        }
+        .brandName{
+            width: 100px;
+            height: 100px;
+        }
+        .info{
+            width: 70px;
+            height: 70px;
+            ul{
+                text-decoration: none;
+                li{
+                    list-style: none;
+                   a{
+                    text-decoration: none;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 14px;
+                   }
+                    }
+            }
+        }
+        .quickLinks{
+             margin-left: 2rem;
+             ul{
+                text-decoration: none;
+                li{
+                    list-style: none;
+                   a{
+                    text-decoration: none;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 14px;
+                   }
+                }
+            }
+        }
+        .contactUs{
+            ul{
+                text-decoration: none;
+                li{
+                    list-style: none;
+                   a{
+                    text-decoration: none;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 14px;
+                   }
+                }
+            }
+        }
+        .copyRight{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            background: #000;
+            color: #fff;
+        }
+    }
+   
+}
+
+}

@@ -10,6 +10,7 @@ import AboutComponent from './components/AboutComponent'
 import LatestItemsComponent from './components/LatestItemsComponent'
 import CarouselComponent from './components/CarouselComponent'
 import InstagramComponent from './components/InstagramComponent'
+import  FooterComponent from './components/FooterComponent'
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
       <LatestItemsComponent/>
       <CarouselComponent />
       <InstagramComponent />
+      <FooterComponent/>
     </div>
   )
 }
