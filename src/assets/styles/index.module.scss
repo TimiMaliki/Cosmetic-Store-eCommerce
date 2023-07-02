@@ -15,10 +15,6 @@ body{
 
 
 
-
-
-
-
     // for medium devices
     @include mediumDevices {
         .navBarWrapper{
@@ -33,19 +29,19 @@ body{
              padding: 10px;
         }
         .nav{
+            padding: 10px 90px;
                 ul{
                     display: flex;
-                    justify-content: space-between;
-                    padding: 10px 20px;
-                     
+                    justify-content: space-between; 
                     li{
                         list-style: none;
                     }
     
                     a{
                         text-decoration: none;
-                        color: #B3B7BC;
+                        color: #000;
                         font-weight: bold;
+                        font-size: 19px;
                         &:hover{
                             color: #1F1F26;
                         }

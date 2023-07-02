@@ -1,5 +1,5 @@
 import about from '../assets/styles/about.module.scss'
-import beautifulWoman from '../assets/img/HeaderImg/portrait-beautiful-black-woman-with-mysterious-shadows.jpg'
+import beautifulWoman from '../assets/img/HeaderImg/portrait-beautiful-black-woman-with-mysterious-shadows (1).jpg'
 
 
 const AboutComponent = () => {
