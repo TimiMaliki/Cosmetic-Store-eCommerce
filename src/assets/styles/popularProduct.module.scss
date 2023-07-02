@@ -3,17 +3,32 @@
 
 .popular {
 
-    @include mediumDevices{
+
+    @include largeDevices {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 0.5rem;
+            padding: 10px;
+            height: 400px;
+            .detail{
+                margin-top: 3rem;
+                text-align: center;
+                font-size: 19px;
+            }
+        }
+
+    }
+
+    @include mediumDevices {
         background: #fff;
+
         .popularCategory {
             display: flex;
             justify-content: space-between;
             padding: 10px 20px;
         }
 
-        .imgContainer {
-            display: flex;
-        }
 
         .wrapper {
             display: grid;
@@ -24,7 +39,7 @@
 
         img {
             width: 100%;
-            height: 100px;
+            height: 300px;
             object-fit: cover;
         }
     }
@@ -33,6 +48,7 @@
     //for small devices
     @include smallDevices {
         background: #fff;
+
         .popularCategory {
             display: flex;
             justify-content: space-between;

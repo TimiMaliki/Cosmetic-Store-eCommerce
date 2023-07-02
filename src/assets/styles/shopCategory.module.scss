@@ -2,10 +2,36 @@
 
 .shop {
 
-  @include largeDevices{
-    
-  }
+  //for large devices
+  @include largeDevices {
 
+  
+    .shopContent {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      padding: 0px 430px;
+      height: 300px;
+      .shopContentImg {
+        // border: 2px solid red;
+        // width: 400px;
+        // height: 300px;
+        img {
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+        }
+      }
+  
+      .shopContentTwo {
+        display: grid;
+        padding: 10px;
+        gap: 1rem;
+        height: 90px;
+        margin-top: -0.5rem;
+      }
+    }
+
+  }
 
   // for medium devices
   @include mediumDevices {

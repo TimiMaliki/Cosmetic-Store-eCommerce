@@ -2,14 +2,43 @@
 
 .header {
 
-// 
+    // for large devices
+    @include largeDevices{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background: #426666;;
+        .headerText {
+            width:250px ;
+            text-align: center;
+            margin-top: 0.3rem;
+            margin-left: 14rem;
+            font-size: 24px;
+              p{
+                margin-top: 3rem;
+              }
+        }
+        .headerImg{
+            width: 300px;
+            height: 300px;
+            margin-left: -12rem;
+        }
+        img {
+            width: 100%;
+            height: 500px;
+            border-radius: 4px;
+        }
+    }
+
+
+
 
     //for medium device
     @include mediumDevices {
         display: grid;
         grid-template-columns: 2fr 1fr;
         padding: 10px 5px;
-        background: #426666;;
+        background: #426666;
+
 
         .headerText {
             width: 360px;
@@ -29,7 +58,8 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         padding: 10px 5px;
-        background: #426666;;
+        background: #426666;
+        ;
 
         .headerText {
             width: 160px;
