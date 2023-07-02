@@ -1,6 +1,6 @@
-import {FaHeart} from  'react-icons/fa'
-import {FaSearch} from  'react-icons/fa'
-import {FaShoppingCart} from  'react-icons/fa'
+// import {FaHeart} from  'react-icons/fa'
+// import {FaSearch} from  'react-icons/fa'
+// import {FaShoppingCart} from  'react-icons/fa'
 import index from './assets/styles/index.module.scss'
 import Header from './components/Header'
 import LogoComponent from './components/LogoComponent'
@@ -25,9 +25,9 @@ function App() {
 
       <div className={index.icons}>
         <div className={index.iconWrapper}>
-        <FaSearch className={index.FaSearch}></FaSearch>
-        <FaHeart className={index.FaHeart}></FaHeart>
-        <FaShoppingCart className={index.FaShoppingCart}></FaShoppingCart>
+            <button>
+              <p>Log In</p>
+            </button>
         </div>
       </div>
 
