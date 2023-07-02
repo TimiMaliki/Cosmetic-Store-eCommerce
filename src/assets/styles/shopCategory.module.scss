@@ -1,29 +1,68 @@
 @import './breakpoints.scss';
 
-.shop{
+.shop {
 
-    @include smallDevices{
-      background: #fff;
-        .shopCategory{
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 20px;
-        }
-        .shopContent{
-        
-          .shopContentImg{
-            padding: 0px 100px;
-            img{
-                width: 100%;
-                height: 200px;
-                object-fit: cover;
-            }
-          }
-          .shopContentTwo{
-            display: flex;
-            padding: 10px;
-            gap: 1rem;
-          }
-        }
+  @include mediumDevices {
+    background: #fff;
+
+    .shopCategory {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
     }
+
+    .shopContent {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-left: 3rem;
+
+      .shopContentImg {
+        img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+      }
+
+      .shopContentTwo {
+        display: grid;
+        padding: 10px;
+        gap: 1rem;
+        height: 90px;
+        margin-top: -0.5rem;
+      }
+    }
+  }
+
+
+
+  //for small devices
+  @include smallDevices {
+    background: #fff;
+
+    .shopCategory {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .shopContent {
+
+      .shopContentImg {
+        padding: 0px 100px;
+
+        img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+      }
+
+      .shopContentTwo {
+        display: flex;
+        padding: 10px;
+        gap: 1rem;
+      }
+    }
+  }
 }

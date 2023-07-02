@@ -2,6 +2,32 @@
 
 .instagram {
 
+    @include mediumDevices{
+        background: #fff;
+        .instagramCategory {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .instaflex{
+            padding: 0px 5px;
+        }
+        .imgflex{
+            transform: translateY(-30px);
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+        img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+    }
+
+
+
+    //for small devices
     @include smallDevices {
         background: #fff;
         .instagramCategory {

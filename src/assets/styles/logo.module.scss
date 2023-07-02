@@ -1,6 +1,19 @@
 @import './breakpoints.scss';
 
 .logo{
+    @include mediumDevices{
+        display: flex;
+        justify-content: space-between;
+         background: #fff;
+        
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 2px;
+        }
+    }
+
+
     @include smallDevices{
         display: flex;
         justify-content: space-between;

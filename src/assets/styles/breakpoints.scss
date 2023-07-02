@@ -1,5 +1,5 @@
 $smallDevices : 350px;
-$mediumDevices : 700px;
+$mediumDevices : 350px;
 $largeDevices : 900px;
 $largerDevices : 1100px;
 $xtralargeDevices : 1200px;
@@ -20,7 +20,7 @@ $xtralargeDevices : 1200px;
 
 
 @mixin largeDevices{
-    @media(min-width:$largeDevices){
+    @media(max-width:$largeDevices){
         @content;
     }
 }
