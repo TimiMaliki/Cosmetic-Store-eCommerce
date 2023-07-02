@@ -1,26 +1,35 @@
 @import './breakpoints.scss';
 
-.logo{
-    @include mediumDevices{
-        display: flex;
-        justify-content: space-between;
-         background: #fff;
-        
-        img{
-            width: 50px;
-            height: 50px;
+
+
+
+
+
+.logo {
+
+
+    // for medium devices
+    @include mediumDevices {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background: #fff;
+
+        img {
+            width: 100%;
+            height: 100px;
             border-radius: 2px;
+            object-fit: cover;
         }
     }
 
+    // for small devices
+    @include smallDevices {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background: #fff;
 
-    @include smallDevices{
-        display: flex;
-        justify-content: space-between;
-         background: #fff;
-        
-        img{
-            width: 50px;
+        img {
+            width: 100%;
             height: 50px;
             border-radius: 2px;
         }

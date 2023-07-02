@@ -11,6 +11,49 @@ body{
 }
 
 .navBar {
+
+// for largeDevices
+
+@include largeDevices{
+    .navBarWrapper{
+        display: flex;
+        justify-content: space-between;
+}
+h1{
+       letter-spacing: 1px;
+}
+.icons{
+     padding: 10px;
+}
+.nav{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+             
+            li{
+                list-style: none;
+            }
+
+            a{
+                text-decoration: none;
+                color: #B3B7BC;
+                font-weight: bold;
+                &:hover{
+                    color: #1F1F26;
+                }
+        }
+        }
+    }
+}
+
+
+
+
+
+
+
+
     // for medium devices
     @include mediumDevices {
         .navBarWrapper{

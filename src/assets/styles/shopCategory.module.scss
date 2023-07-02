@@ -2,6 +2,12 @@
 
 .shop {
 
+  @include largeDevices{
+    
+  }
+
+
+  // for medium devices
   @include mediumDevices {
     background: #fff;
 
