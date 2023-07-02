@@ -1,7 +1,9 @@
 import latestItems from '../assets/styles/latestItems.module.scss'
 import CategoriesProp from './CategoriesProp'
 import ButtonProp from './ButtonProp'
-import beautifulAfrican from '../assets/img/HeaderImg/beautiful-african-female-feeling-grateful.jpg'
+import groom from '../assets/img/ShopImg/groom.jpg'
+import product from '../assets/img/ShopImg/product.jpg'
+import land from '../assets/img/ShopImg/land.jpg'
 
 const LatestItemsComponent = () => {
   return (
@@ -18,7 +20,7 @@ const LatestItemsComponent = () => {
 
       <div className={latestItems.content}>
         <div className={latestItems.imgWrapper}>
-        <img src= {beautifulAfrican} alt="" />
+        <img src= {groom} alt="" />
         <div className={latestItems.detail}>
          <p>Price : $120:00</p>
          <p>Lorem, ipsum dolor.</p>
@@ -29,7 +31,7 @@ const LatestItemsComponent = () => {
 
       <div className={latestItems.content}>
         <div className={latestItems.imgWrapper}>
-        <img src= {beautifulAfrican} alt="" />
+        <img src= {product} alt="" />
         <div className={latestItems.detail}>
          <p>Price : $120:00</p>
          <p>Lorem, ipsum dolor.</p>
@@ -40,7 +42,7 @@ const LatestItemsComponent = () => {
 
       <div className={latestItems.content}>
         <div className={latestItems.imgWrapper}>
-        <img src= {beautifulAfrican} alt="" />
+        <img src= {land} alt="" />
         <div className={latestItems.detail}>
          <p>Price : $120:00</p>
          <p>Lorem, ipsum dolor.</p>

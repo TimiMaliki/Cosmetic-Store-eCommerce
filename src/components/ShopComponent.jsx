@@ -1,7 +1,11 @@
 import shop from '../assets/styles/shopCategory.module.scss'
 import CategoriesProp from './CategoriesProp'
 import ButtonProp from './ButtonProp'
-import beautifulAfrican from '../assets/img/HeaderImg/beautiful-african-female-feeling-grateful.jpg'
+import scentPurple from '../assets/img/ShopImg/fresh-scent-purple-flower-glass-bottle-generative-ai.jpg'
+import free from '../assets/img/ShopImg/free-photo-beauty-product-bottle-mockup-image-with-background.jpg'
+import bottle from '../assets/img/ShopImg/word.jpg'
+
+
 
 const ShopComponent = () => {
     return (
@@ -20,14 +24,14 @@ const ShopComponent = () => {
 
             <div className={shop.shopContentImg}>
 
-            <img src={beautifulAfrican} alt="" />
+            <img src={scentPurple} alt="" />
 
                </div>
     
                </div>
                <div className={shop.shopContentTwo}>
-                <img src={beautifulAfrican} alt="" width={190} height={90}/>
-                <img src={beautifulAfrican} alt="" width={190} height={90} />
+                <img src={bottle} alt="" width={190} height={90}/>
+                <img src={free} alt="" width={190} height={90} />
             </div>
             </div>
 

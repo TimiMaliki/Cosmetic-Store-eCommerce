@@ -1,5 +1,5 @@
 import about from '../assets/styles/about.module.scss'
-import beautifulAfrican from '../assets/img/HeaderImg/beautiful-african-female-feeling-grateful.jpg'
+import beautifulWoman from '../assets/img/HeaderImg/portrait-beautiful-black-woman-with-mysterious-shadows.jpg'
 
 
 const AboutComponent = () => {
@@ -7,7 +7,7 @@ const AboutComponent = () => {
     <div className={about.about}>
            <div className={about.image}>
           
-          <img src={beautifulAfrican} alt="" />
+          <img src={beautifulWoman} alt="" />
 
         </div>
 

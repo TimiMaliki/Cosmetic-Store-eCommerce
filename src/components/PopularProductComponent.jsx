@@ -1,7 +1,10 @@
 import PopularProduct from '../assets/styles/popularProduct.module.scss'
 import CategoriesProp from './CategoriesProp'
 import ButtonProp from './ButtonProp'
-import beautifulAfrican from '../assets/img/HeaderImg/beautiful-african-female-feeling-grateful.jpg'
+import yellow from '../assets/img/ShopImg/yellow.jpg'
+import black from '../assets/img/ShopImg/black.jpg'
+import light from '../assets/img/ShopImg/light.jpg'
+import still from '../assets/img/ShopImg/still.jpg'
 
 const PopularProductComponent = () => {
     return (
@@ -18,7 +21,7 @@ const PopularProductComponent = () => {
 
                 <div className={PopularProduct.content}>
                     <div className={PopularProduct.imgWrapper}>
-                        <img src={beautifulAfrican} alt="" />
+                        <img src={yellow} alt="" />
                         <div className={PopularProduct.detail}>
                             <p>$150:00</p>
                             <p>Oil serum</p>
@@ -29,7 +32,7 @@ const PopularProductComponent = () => {
 
                 <div className={PopularProduct.content}>
                     <div className={PopularProduct.imgWrapper}>
-                        <img src={beautifulAfrican} alt="" />
+                        <img src={black} alt="" />
                         <div className={PopularProduct.detail}>
                             <p>$150:00</p>
                             <p>Oil serum</p>
@@ -40,7 +43,7 @@ const PopularProductComponent = () => {
 
                 <div className={PopularProduct.content}>
                     <div className={PopularProduct.imgWrapper}>
-                        <img src={beautifulAfrican} alt="" />
+                        <img src={light} alt="" />
                         <div className={PopularProduct.detail}>
                             <p>$150:00</p>
                             <p>Oil serum</p>
@@ -51,7 +54,7 @@ const PopularProductComponent = () => {
 
                 <div className={PopularProduct.content}>
                     <div className={PopularProduct.imgWrapper}>
-                        <img src={beautifulAfrican} alt="" />
+                        <img src={still} alt="" />
                         <div className={PopularProduct.detail}>
                             <p>$150:00</p>
                             <p>Oil serum</p>

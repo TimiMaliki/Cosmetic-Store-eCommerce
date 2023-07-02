@@ -1,5 +1,5 @@
 import headerStyles from '../assets/styles/header.module.scss'
-import beautifulAfrican from '../assets/img/HeaderImg/beautiful-african-female-feeling-grateful.jpg'
+import beautifulBlack from '../assets/img/HeaderImg/portrait-beautiful-black-woman-with-mysterious-shadows (1).jpg'
 
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
        Expedita a aut quod sit consequatur!
     </div>  
     <div className={headerStyles.headerImg}>
-      <img src={beautifulAfrican} alt="" />
+      <img src={beautifulBlack} alt="" />
 
       </div>  
     </div>
