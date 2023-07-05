@@ -1,7 +1,7 @@
 // import {FaHeart} from  'react-icons/fa'
 // import {FaSearch} from  'react-icons/fa'
 // import {FaShoppingCart} from  'react-icons/fa'
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import index from './assets/styles/index.module.scss'
 import Header from './components/Header'
 import LogoComponent from './components/LogoComponent'
@@ -12,9 +12,13 @@ import LatestItemsComponent from './components/LatestItemsComponent'
 import CarouselComponent from './components/CarouselComponent'
 import InstagramComponent from './components/InstagramComponent'
 import FooterComponent from './components/FooterComponent'
-import LoginPage from './components/LoginPage'
+import About from './Pages/About'
+// import Blog from './Pages/Blog'
+// import Shop from './Pages/Shop'
+// import Contact from './Pages/Contact'
+// import Layout from './Pages/Layout'
 
- 
+
 function App() {
   return (
 
@@ -36,29 +40,41 @@ function App() {
 
       </div>
 
-
       <div className={index.nav}>
         <ul>
-          <li>Home</li>
-          <li>Shop</li>
-          <li>Blog</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><Link to="/">Home</Link> </li>
+          <li><Link to="/Shop">Shop</Link> </li>
+          <li><Link to="/Blog">Blog</Link></li>
+          <li><Link to="/About">About</Link></li>
+          <li><Link to="Contact">Contact</Link></li>
         </ul>
-      </div> 
+      </div>
 
+ <Routes>
 
+  <Route>
+    <Route index element={<Header />} />
+    <Route  path="/About" element={<About />} />
 
-      <Header />
-      <LogoComponent /> 
-       <ShopComponent />
+  </Route>
+ </Routes>
+
+ {/* <Route  index element={<Header />} />
+    <Route  path="new" element={<Shop />} />
+    <Route  path="new" element={<Blog />} />
+    <Route  path="new" element={<About />} />
+    <Route  path="new" element={<Contact />} /> */}
+
+      
+      <LogoComponent />
+      <ShopComponent />
       <PopularProductComponent />
       <AboutComponent />
-      <LatestItemsComponent/>
+      <LatestItemsComponent />
       <CarouselComponent />
       <InstagramComponent />
-      <FooterComponent/> 
-     </div>
+      <FooterComponent />
+    </div>
   )
 }
 
@@ -74,4 +90,3 @@ export default App
 
 
       // <LoginPage /> 
-     
