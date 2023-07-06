@@ -1,5 +1,7 @@
 import CategoriesProp from '../../components/CategoriesProp'
 import ButtonProp from '../../components/ButtonProp'
+import LogoComponent from '../../components/LogoComponent'
+import CarouselComponent from '../../components/CarouselComponent'
 import about from './aboutpage.module.scss'
 import beautifulWoman from '../../assets/img/HeaderImg/portrait-beautiful-black-woman-with-mysterious-shadows (1).jpg'
 import scentPurple from '../../assets/img/ShopImg/fresh-scent-purple-flower-glass-bottle-generative-ai.jpg'
@@ -9,6 +11,9 @@ import yellow from '../../assets/img/ShopImg/yellow.jpg'
 import black from '../../assets/img/ShopImg/black.jpg'
 import light from '../../assets/img/ShopImg/light.jpg'
 import still from '../../assets/img/ShopImg/still.jpg'
+import groom from '../../assets/img/ShopImg/groom.jpg'
+import product from '../../assets/img/ShopImg/product.jpg'
+import land from '../../assets/img/ShopImg/land.jpg'
 
 
 const index = () => {
@@ -121,9 +126,48 @@ TEAM SECTION  */}
       </div>
 
 
+      {/* 
+Service Section  */}
+<div className={about.latest}>
+<div className={about.wrapper}>
+
+<div className={about.content}>
+  <div className={about.imgWrapper}>
+  <img src= {groom} alt="" />
+  <div className={about.detail}>
+   <p>Price : $120:00</p>
+   <p>Lorem, ipsum dolor.</p>
+  </div>
+  </div>
+</div>
 
 
+<div className={about.content}>
+  <div className={about.imgWrapper}>
+  <img src= {product} alt="" />
+  <div className={about.detail}>
+   <p>Price : $120:00</p>
+   <p>Lorem, ipsum dolor.</p>
+  </div>
+  </div>
+</div>
 
+
+<div className={about.content}>
+  <div className={about.imgWrapper}>
+  <img src= {land} alt="" />
+  <div className={about.detail}>
+   <p>Price : $120:00</p>
+   <p>Lorem, ipsum dolor.</p>
+  </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<CarouselComponent />
+<LogoComponent />
     </div>
 
   )
