@@ -4,8 +4,7 @@ import headerStyles from '../assets/styles/header.module.scss'
 
 const Header = () => {
   return (
-    <div
-    className={headerStyles.header}>
+    <div className={headerStyles.header}>
       <div className={headerStyles.headerText}>
      <p>
      Lorem ipsum dolor sit,
