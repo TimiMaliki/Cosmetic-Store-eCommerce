@@ -1,4 +1,5 @@
 import index from './Home.module.scss'
+import Header from '../../components/Header'
 import LogoComponent from '../../components/LogoComponent'
 import ShopComponent from '../../components/ShopComponent'
 import PopularProductComponent from '../../components/PopularProductComponent'
@@ -16,7 +17,7 @@ function Home() {
 
     <div>
 
-
+<Header />
       <LogoComponent />
       <ShopComponent />
       <PopularProductComponent />
@@ -24,7 +25,6 @@ function Home() {
       <LatestItemsComponent />
       <CarouselComponent />
       <InstagramComponent />
-      <FooterComponent />
     </div>
   )
 }

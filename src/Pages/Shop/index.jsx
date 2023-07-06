@@ -1,8 +1,9 @@
+
+
 const Shop = () => {
   return (
     <div>
-
-hi
+    
     </div>
   )
 }
