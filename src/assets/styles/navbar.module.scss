@@ -64,7 +64,23 @@
             background-color: #EFEFEF;
             height: 100px;
         }
-    
+        button{
+            width: 140px;
+            height: 45px;
+            border-radius: 25px;
+            background: #000;
+            border: 2px solid tomato;
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover{
+                background: #1F1F26;
+            }
+            p{
+                color: #fff;
+                font-size: 19px;
+                font-weight: 600;
+            }
+        }
         .navBarWrapper{
             @include smallDevices {
                 display: flex;

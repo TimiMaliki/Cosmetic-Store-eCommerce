@@ -1,0 +1,211 @@
+@import '../../assets/styles/breakpoints.scss';
+
+body {
+    background: #fff;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+.form {
+    @include largeDevices {
+        height: 600px;
+         h3{
+            font-size: 29px;
+         }
+        .text {
+            align-items: center;
+            font-size: 24px;
+            justify-content: center;
+            display: flex;
+            margin-top: 3rem;
+        }
+
+        .input {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 360px;
+            margin-top: 3rem;
+
+            input {
+                border: 1px solid red;
+                width: 300px;
+                height: 60px;
+                background: #fff;
+                border-radius: 9px;
+
+                &::placeholder {
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        textarea {
+            margin-top: 0.5rem;
+            margin-bottom: 3rem;
+            border: 1px solid red;
+            border-radius: 9px;
+
+            &::placeholder {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+           }
+        button {
+            width: 160px;
+            height: 45px;
+            background: rgb(56, 2, 2);
+            color: #fff;
+            border: none;
+            border-radius: 9px;
+            cursor: pointer;
+            p{
+                font-size: 21px;
+            }
+        }
+    }
+
+
+
+    @include mediumDevices{
+        height: 600px;
+        h3{
+           font-size: 29px;
+        }
+       .text {
+           align-items: center;
+           font-size: 24px;
+           justify-content: center;
+           display: flex;
+           margin-top: 3rem;
+       }
+
+       .input {
+           display: flex;
+           justify-content: space-between;
+           margin-top: 3rem;
+
+           input {
+               border: 1px solid red;
+               width: 300px;
+               height: 60px;
+               background: #fff;
+               border-radius: 9px;
+
+               &::placeholder {
+                   text-align: center;
+                   font-size: 20px;
+               }
+           }
+       }
+       .textarea{
+        display: flex;
+        justify-content: center;
+       }
+       textarea {
+           margin-top: 0.5rem;
+           margin-bottom: 3rem;
+           border: 1px solid red;
+           border-radius: 9px;
+
+           &::placeholder {
+               text-align: center;
+               display: flex;
+               justify-content: center;
+           }
+       }
+       .button{
+        display: flex;
+        justify-content: center;
+       }
+       button {
+           width: 160px;
+           height: 45px;
+           background: rgb(56, 2, 2);
+           color: #fff;
+           border: none;
+           border-radius: 9px;
+           cursor: pointer;
+
+           p{
+               font-size: 21px;
+               margin-top: 0.5rem;
+           }
+       }
+    }
+
+      // small devices
+      @include smallDevices {
+        height: 600px;
+        h3{
+           font-size: 29px;
+        }
+       .text {
+           align-items: center;
+           font-size: 24px;
+           justify-content: center;
+           display: flex;
+           margin-top: 3rem;
+       }
+
+       .input {
+           display: flex;
+           justify-content: space-between;
+           margin-top: 3rem;
+
+           input {
+               border: 1px solid red;
+               width: 150px;
+               height: 60px;
+               background: #fff;
+               border-radius: 9px;
+
+               &::placeholder {
+                   text-align: center;
+                   font-size: 20px;
+               }
+           }
+       }
+       .textarea{
+        display: flex;
+        justify-content: center;
+       }
+       textarea {
+           margin-top: 0.5rem;
+           margin-bottom: 3rem;
+           border: 1px solid red;
+           border-radius: 9px;
+
+           &::placeholder {
+               text-align: center;
+               display: flex;
+               justify-content: center;
+           }
+       }
+       .button{
+        display: flex;
+        justify-content: center;
+       }
+       button {
+           width: 160px;
+           height: 45px;
+           background: rgb(56, 2, 2);
+           color: #fff;
+           border: none;
+           border-radius: 9px;
+           cursor: pointer;
+
+           p{
+               font-size: 21px;
+               margin-top: 0.5rem;
+           }
+       }
+    }
+}

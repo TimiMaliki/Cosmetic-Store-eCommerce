@@ -17,7 +17,12 @@
             height: 45px;
             background: #000;
             color:#fff;
-            border: 2px solid red;
+            border-radius: 9px;
+            cursor: pointer;
+           
+            p{
+                font-size: 21px;
+            }
         }
         .footerBody{
             background: #000;
