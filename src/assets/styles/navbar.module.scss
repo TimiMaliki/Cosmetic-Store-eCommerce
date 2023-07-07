@@ -5,6 +5,11 @@
     //for large devices
     @include largeDevices{
         padding: 10px 120px;
+        
+       a{
+        font-weight: bolder;
+        font-size: 22px;
+       } 
     }
     
     
@@ -85,25 +90,19 @@
             @include smallDevices {
                 display: flex;
                 justify-content: space-between;
-                padding: 10px 20px;
             }
         }
         h1{
             @include smallDevices {
                letter-spacing: 1px;
             }
-        }
-        .icons{
-            @include smallDevices {
-             padding: 10px;
-             }
+        
         }
         .nav{
             @include smallDevices {
                 ul{
                     display: flex;
                     justify-content: space-between;
-                    padding: 10px 20px;
                      
                     li{
                         list-style: none;
