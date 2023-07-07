@@ -146,7 +146,7 @@ body{
             .detail{
                 margin-top: 3rem;
                 text-align: center;
-                font-size: 19px;
+                font-size: 22px;
             }
         }
 
@@ -160,6 +160,9 @@ body{
             grid-template-columns: 1fr 1fr 1fr 1fr;
             gap: 0.5rem;
             padding: 10px;
+            .detail{
+              font-size: 22px;
+          }
         }
 
         img {
@@ -183,6 +186,9 @@ body{
             grid-template-columns: 1fr 1fr 1fr 1fr;
             gap: 0.5rem;
             padding: 10px;
+            .detail{
+              font-size: 22px;
+          }
         }
 
         img {
