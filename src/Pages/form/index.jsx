@@ -22,7 +22,7 @@ const index = () => {
               
               <div className={form.button}>
               <button className={form.button}>
-                <p>Contact Us</p>
+                <p>Send</p>
             </button>
               </div>
                

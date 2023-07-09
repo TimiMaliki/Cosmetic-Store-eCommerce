@@ -1,6 +1,8 @@
 import contact from './contact.module.scss'
 import FormPage from '../form/index'
-import beautifulWoman from '../../assets/img/HeaderImg/portrait-beautiful-black-woman-with-mysterious-shadows (1).jpg'
+import phone from '../../assets/img/HeaderImg/phone.jpg'
+import loc from '../../assets/img/HeaderImg/loc.jpg'
+import Email from '../../assets/img/HeaderImg/gmail.png'
 
 const Contact = () => {
   return (
@@ -17,7 +19,7 @@ For the about us writeup */}
         {/* first box */}
         <div className={contact.box}>
           <div className={contact.boxIcon}>
-            <img src={beautifulWoman} alt="" />
+            <img src={loc} alt="" />
           </div>
 
           <div className={contact.locationText}>
@@ -31,11 +33,11 @@ For the about us writeup */}
         {/* second box */}
         <div className={contact.box}>
           <div className={contact.boxIcon}>
-            <img src={beautifulWoman} alt="" />
+            <img src={phone} alt="" />
           </div>
 
           <div className={contact.locationText}>
-            <h2>Location</h2>
+            <h2>Phone</h2>
 
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -45,11 +47,11 @@ For the about us writeup */}
         {/* third box */}
         <div className={contact.box}>
           <div className={contact.boxIcon}>
-            <img src={beautifulWoman} alt="" />
+            <img src={Email} alt="" />
           </div>
 
           <div className={contact.locationText}>
-            <h2>Location</h2>
+            <h2>Email</h2>
 
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

@@ -41,7 +41,6 @@
                 }
             }
             .nav{
-                padding: 10px 90px;
                     ul{
                         display: flex;
                         justify-content: space-between; 
@@ -100,6 +99,7 @@
         }
         .nav{
             @include smallDevices {
+                padding: 10px 30px;
                 ul{
                     display: flex;
                     justify-content: space-between;

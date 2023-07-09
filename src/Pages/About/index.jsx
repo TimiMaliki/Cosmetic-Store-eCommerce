@@ -7,10 +7,10 @@ import beautifulWoman from '../../assets/img/HeaderImg/portrait-beautiful-black-
 import scentPurple from '../../assets/img/ShopImg/fresh-scent-purple-flower-glass-bottle-generative-ai.jpg'
 import free from '../../assets/img/ShopImg/free-photo-beauty-product-bottle-mockup-image-with-background.jpg'
 import bottle from '../../assets/img/ShopImg/word.jpg'
-import yellow from '../../assets/img/ShopImg/yellow.jpg'
-import black from '../../assets/img/ShopImg/black.jpg'
-import light from '../../assets/img/ShopImg/light.jpg'
-import still from '../../assets/img/ShopImg/still.jpg'
+import a from '../../assets/img/HeaderImg/a.jpg'
+import b from '../../assets/img/HeaderImg/b.jpg'
+import c from '../../assets/img/HeaderImg/c.jpg'
+import d from '../../assets/img/HeaderImg/d.jpg'
 import groom from '../../assets/img/ShopImg/groom.jpg'
 import product from '../../assets/img/ShopImg/product.jpg'
 import land from '../../assets/img/ShopImg/land.jpg'
@@ -69,22 +69,23 @@ product section  */}
 TEAM SECTION  */}
 
       <div className={about.popular}>
-      <div className={about.popularCategory}>
-                <CategoriesProp
-                    title="Our Team"
-                    text="add our new arrivals to your weekly ineup"
-                />
-                <ButtonProp />
-            </div>
+        <div className={about.popularCategory}>
+          <CategoriesProp
+            title="Our Team"
+            text="add our new arrivals to your weekly ineup"
+          />
+          <ButtonProp />
+        </div>
 
         <div className={about.wrapper}>
 
           <div className={about.content}>
             <div className={about.imgWrapper}>
-              <img src={yellow} alt="" />
+              <img src={a} alt="" />
               <div className={about.detail}>
-                <p>Timi</p>
-                <p>product Designer</p>
+                <p>Chioma <br/>
+                  Product designer
+                </p>
               </div>
             </div>
           </div>
@@ -92,10 +93,11 @@ TEAM SECTION  */}
 
           <div className={about.content}>
             <div className={about.imgWrapper}>
-              <img src={black} alt="" />
+              <img src={b} alt="" />
               <div className={about.detail}>
-                <p>$150:00</p>
-                <p>Oil serum</p>
+              <p>Timi<br/>
+                  CEO
+                </p>
               </div>
             </div>
           </div>
@@ -103,10 +105,11 @@ TEAM SECTION  */}
 
           <div className={about.content}>
             <div className={about.imgWrapper}>
-              <img src={light} alt="" />
+              <img src={c} alt="" />
               <div className={about.detail}>
-                <p>$150:00</p>
-                <p>Oil serum</p>
+              <p>Lucy<br/>
+                  Fashion designer
+                </p>
               </div>
             </div>
           </div>
@@ -114,10 +117,11 @@ TEAM SECTION  */}
 
           <div className={about.content}>
             <div className={about.imgWrapper}>
-              <img src={still} alt="" />
+              <img src={d} alt="" />
               <div className={about.detail}>
-                <p>$150:00</p>
-                <p>Oil serum</p>
+              <p>laddi<br/>
+                  Product manager
+                </p>
               </div>
             </div>
           </div>
@@ -128,46 +132,46 @@ TEAM SECTION  */}
 
       {/* 
 Service Section  */}
-<div className={about.latest}>
-<div className={about.wrapper}>
+      <div className={about.latest}>
+        <div className={about.wrapper}>
 
-<div className={about.content}>
-  <div className={about.imgWrapper}>
-  <img src= {groom} alt="" />
-  <div className={about.detail}>
-   <p>Price : $120:00</p>
-   <p>Lorem, ipsum dolor.</p>
-  </div>
-  </div>
-</div>
-
-
-<div className={about.content}>
-  <div className={about.imgWrapper}>
-  <img src= {product} alt="" />
-  <div className={about.detail}>
-   <p>Price : $120:00</p>
-   <p>Lorem, ipsum dolor.</p>
-  </div>
-  </div>
-</div>
+          <div className={about.content}>
+            <div className={about.imgWrapper}>
+              <img src={groom} alt="" />
+              <div className={about.detail}>
+                <p>Price : $120:00</p>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
 
 
-<div className={about.content}>
-  <div className={about.imgWrapper}>
-  <img src= {land} alt="" />
-  <div className={about.detail}>
-   <p>Price : $120:00</p>
-   <p>Lorem, ipsum dolor.</p>
-  </div>
-  </div>
-</div>
-</div>
+          <div className={about.content}>
+            <div className={about.imgWrapper}>
+              <img src={product} alt="" />
+              <div className={about.detail}>
+                <p>Price : $120:00</p>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
 
-</div>
 
-<CarouselComponent />
-<LogoComponent />
+          <div className={about.content}>
+            <div className={about.imgWrapper}>
+              <img src={land} alt="" />
+              <div className={about.detail}>
+                <p>Price : $120:00</p>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <CarouselComponent />
+      <LogoComponent />
     </div>
 
   )

@@ -24,8 +24,8 @@ body {
 
         .input {
             display: flex;
-            justify-content: space-between;
-            padding: 20px 360px;
+            justify-content: center;
+            // padding: 20px 360px;
             margin-top: 3rem;
 
             input {
@@ -89,7 +89,8 @@ body {
 
        .input {
            display: flex;
-           justify-content: space-between;
+           justify-content: center;
+           gap: 2rem;
            margin-top: 3rem;
 
            input {
