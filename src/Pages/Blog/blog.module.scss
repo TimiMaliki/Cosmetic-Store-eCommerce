@@ -22,7 +22,7 @@ body {
         display: grid;
         grid-template-columns: 2fr 1fr;
         padding: 40px 50px;
-
+         gap: 3rem;
         .content {
             .blogsImg {
                 margin-bottom: 3rem;
@@ -55,6 +55,18 @@ body {
             }
             .lastContent{
                 text-align: center;
+            }
+        }
+
+        .sideContent{
+            .Box{
+              display: flex;
+              padding: 10px 10px;
+              gap: 2rem;
+                p{
+                    border: 2px solid red;
+
+                }
             }
         }
 

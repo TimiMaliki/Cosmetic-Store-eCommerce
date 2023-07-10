@@ -129,8 +129,43 @@ For the about us writeup */}
         </div>
         {/* sideContent */}
         <div className={blogpage.sideContent}>
+           {/* search categories */}
+        <div className={blogpage.searchBoxCategories}>
+            <input type="text" />
+
+            <ul>
+              <li><a href="">Development(20)</a></li>
+              <li><a href="">Designs(40)</a></li>
+              <li><a href="">LifeStyle(14)</a></li>
+              <li><a href="">Beauty(32)</a></li>
+              <li><a href="">Fashion(29)</a></li>
+            </ul>
+            </div>
+
+             <div className={blogpage.achives}>
+              <h5>Achives</h5>
+               {/* boxes */}
+               <div className={blogpage.Box}>
+                     <p>March 2020</p>
+                     <p>June 2020</p>
+               </div>
+
+               <div className={blogpage.Box}>
+                     <p>March 2020</p>
+                     <p>June 2020</p>
+               </div>
+
+               <div className={blogpage.Box}>
+                     <p>March 2020</p>
+                     <p>June 2020</p>
+               </div>
+
+
 
         </div>
+        </div>
+
+       
 
       </div>
 
