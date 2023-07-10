@@ -28,7 +28,7 @@ body {
     //for medium devices
     @include mediumDevices {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
         padding: 20px 50px;
         gap: 3rem;
 
