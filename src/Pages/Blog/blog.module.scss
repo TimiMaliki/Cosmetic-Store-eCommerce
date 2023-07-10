@@ -99,18 +99,31 @@ body {
 
             }
 
+            .achives{
+                text-align: center;
+                margin-bottom: 4rem;
+                line-height: 2;
+                .Box{
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    padding: 10px 0px;
+                    gap: 2rem;
+                    h2{
+                        margin-bottom:3rem;
+                    }
+                      p{
+                          border: 3px solid rgb(211, 98, 98);
+                          width: 100px;
+                          height: 30px;
+                          cursor: pointer;
+                      }
+                  }
+            }
+
         }
 
     }
 
 }
 
-// .Box{
-//   display: flex;
-//   padding: 10px 10px;
-//   gap: 2rem;
-//     p{
-//         border: 2px solid red;
-
-//     }
-// }

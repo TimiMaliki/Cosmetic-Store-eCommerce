@@ -149,7 +149,7 @@ For the  writeup */}
             </div>
 
              <div className={blogpage.achives}>
-              <h5>Achives</h5>
+              <h2>Achives</h2>
                {/* boxes */}
                <div className={blogpage.Box}>
                      <p>March 2020</p>
@@ -168,7 +168,7 @@ For the  writeup */}
         </div>
 
 
-        <div className={blogpage.achives}>
+        <div className={blogpage.smallContentBlog}>
               <h5>Read Next</h5>
               <div className={blogpage.smallContent}>
                     <img src="c" alt="" />
