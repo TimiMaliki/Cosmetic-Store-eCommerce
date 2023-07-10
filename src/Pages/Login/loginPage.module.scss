@@ -87,9 +87,23 @@
                      }
                 }
             }
-            .createAccount{
-                border: 2px solid red;
+            .create{
+                display: flex;
+                    justify-content: center;
+                    text-align: center;
+                .createAccount{
+                    background: #000;
+                    color: #fff;
+                    width: 400px;
+                    height: 70px;
+                    border-radius: 14px;
+                    cursor: pointer;
+                   h3{
+                    margin-top: 1.5rem;
+                   }
+                }
             }
+           
         }
     }
 }

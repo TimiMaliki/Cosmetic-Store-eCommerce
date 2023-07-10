@@ -47,10 +47,12 @@ const Login = () => {
                             
 
                             {/* create account */}
-
+                            <div className={login.create}>
                             <div className={login.createAccount}>
                                   <h3>Create an Account</h3>
                             </div>
+                            </div>
+                           
 
                         </div>
 
