@@ -13,9 +13,7 @@ const Navbar = () => {
 
       <div className={navbar.icons}>
         <div className={navbar.iconWrapper}>
-          <button>
-            <p>Log In</p>
-          </button>
+          <button><Link to="Login"><p>Log In</p></Link></button>
         </div>
       </div>
 
