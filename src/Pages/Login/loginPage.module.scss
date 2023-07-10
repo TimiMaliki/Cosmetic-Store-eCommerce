@@ -1,0 +1,47 @@
+@import '../../assets/styles/breakpoints.scss';
+
+.login {
+
+    @include mediumDevices {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10rem;
+        border-radius: 14px;
+        height: 1000px;
+
+
+        .backgroundImg {
+            border-radius: 14px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/img/HeaderImg/dope.jpg');
+            img {
+                width: 100%;
+                height: 700px;
+                position: relative;
+            }
+
+            .backgroundImgText {
+                position: absolute;
+                text-align: center;
+                color: #fff;
+                margin-top: 18rem;
+
+                h1 {
+                    margin-bottom: 2rem;
+                    font-size: 49px;
+                }
+
+                p {
+                    font-size: 27px;
+                }
+            }
+        }
+
+        .loginForm {
+            border-radius: 14px;
+        }
+    }
+}
