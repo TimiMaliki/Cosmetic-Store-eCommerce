@@ -169,20 +169,18 @@ For the  writeup */}
 
 
         <div className={blogpage.smallContentBlog}>
-              <h5>Read Next</h5>
+              <h2>Read Next</h2>
               <div className={blogpage.smallContent}>
-                    <img src="c" alt="" />
+                    <img src={c} alt="" />
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                      Ratione laboriosam, facere, iure aliquam temporibus 
-                      odio nisi provident sunt quod quam aspernatur amet incidunt!</p>
+                  </p>
               </div>
 
 
               <div className={blogpage.smallContent}>
-                    <img src="c" alt="" />
+                    <img src={c} alt="" />
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                      Ratione laboriosam, facere, iure aliquam temporibus 
-                      odio nisi provident sunt quod quam aspernatur amet incidunt!</p>
+                 </p>
               </div>
 
               </div>

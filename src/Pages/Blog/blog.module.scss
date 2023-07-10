@@ -99,31 +99,56 @@ body {
 
             }
 
-            .achives{
+            .achives {
                 text-align: center;
                 margin-bottom: 4rem;
                 line-height: 2;
-                .Box{
+
+                .Box {
                     display: flex;
                     justify-content: center;
                     text-align: center;
                     padding: 10px 0px;
                     gap: 2rem;
-                    h2{
-                        margin-bottom:3rem;
+
+                    h2 {
+                        margin-bottom: 3rem;
                     }
-                      p{
-                          border: 3px solid rgb(211, 98, 98);
-                          width: 100px;
-                          height: 30px;
-                          cursor: pointer;
-                      }
-                  }
+
+                    p {
+                        border: 3px solid rgb(211, 98, 98);
+                        width: 100px;
+                        height: 30px;
+                        cursor: pointer;
+                    }
+                }
             }
+
+            .smallContentBlog {
+                text-align: center;
+                  line-height: 3;
+                .smallContent{
+                    display: flex;
+                    margin-bottom: 4rem;
+                    p{
+                        width: 100px;
+                        padding-top: 10px;
+                    }
+                    img{
+                        width: 300px;
+                        height: 200px;
+                    }
+                }
+            }
+
 
         }
 
     }
 
-}
 
+    @include mediumDevices{
+        
+    }
+
+}
