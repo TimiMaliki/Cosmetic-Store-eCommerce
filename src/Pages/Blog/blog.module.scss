@@ -21,36 +21,40 @@ body {
     @include largeDevices {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        padding: 40px 50px;
+        gap: 3rem;
+      
+    }
+
+    //for medium devices
+    @include mediumDevices {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 50px;
         gap: 3rem;
 
         .content {
             .blogsImg {
-                margin-bottom: 3rem;
+                margin-bottom: 1rem;
 
                 img {
-                    width: 900px;
+                    width: 100%;
                     height: 400px;
                     object-fit: cover;
                 }
             }
 
             .blogsText {
-                height: 300px;
                 text-align: center;
+                margin-bottom: 5rem;
             }
 
             .blogSideGrid {
                 display: grid;
-                grid-template-columns: 1fr 1fr;
-                padding: 0px 20px
             }
 
             .blogsImgGrid {
-                padding: 0px 30px;
-
                 img {
-                    width: 500px;
+                    width: 100%;
                     height: 350px;
                 }
             }
@@ -126,29 +130,153 @@ body {
 
             .smallContentBlog {
                 text-align: center;
-                  line-height: 3;
-                .smallContent{
+                 padding: 0px 50px;
+                 .smallContentBlogTitle{
+                    margin-bottom: 2rem;
+                 }
+                .smallContent {
                     display: flex;
                     margin-bottom: 4rem;
+
                     p{
                         width: 100px;
-                        padding-top: 10px;
-                    }
-                    img{
-                        width: 300px;
+                        height: 120px;
+                     }
+                    img {
+                        width: 100%;
                         height: 200px;
+
                     }
                 }
             }
 
 
         }
-
-    }
-
-
-    @include mediumDevices{
-        
     }
 
 }
+
+// display: grid;
+// grid-template-columns: 2fr 1fr;
+// padding: 40px 50px;
+// gap: 3rem;
+
+// .content {
+//     .blogsImg {
+//         margin-bottom: 3rem;
+
+//         img {
+//             width: 900px;
+//             height: 400px;
+//             object-fit: cover;
+//         }
+//     }
+
+//     .blogsText {
+//         height: 300px;
+//         text-align: center;
+//     }
+
+//     .blogSideGrid {
+//         display: grid;
+//         grid-template-columns: 1fr 1fr;
+//         padding: 0px 20px
+//     }
+
+//     .blogsImgGrid {
+//         padding: 0px 30px;
+
+//         img {
+//             width: 500px;
+//             height: 350px;
+//         }
+//     }
+
+//     .lastContent {
+//         text-align: center;
+//     }
+// }
+
+// .sideContent {
+//     .searchBoxCategories {
+//         text-align: center;
+//         margin-bottom: 4rem;
+
+//         input {
+//             width: 200px;
+//             height: 45px;
+//             background: #fff;
+//             border: 2px solid tomato;
+//             margin-bottom: 3rem;
+
+//             ::placeholder {
+//                 text-align: start;
+//             }
+//         }
+
+//         ul {
+//             list-style: none;
+//             line-height: 3;
+
+//             li {
+//                 font-size: 20px;
+//                 transition: 0.5s;
+
+//                 :hover {
+//                     color: tomato;
+//                     transition: 0.5s;
+//                 }
+
+//                 a {
+//                     text-decoration: none;
+//                     color: #000;
+//                 }
+//             }
+//         }
+
+//     }
+
+//     .achives {
+//         text-align: center;
+//         margin-bottom: 4rem;
+//         line-height: 2;
+
+//         .Box {
+//             display: flex;
+//             justify-content: center;
+//             text-align: center;
+//             padding: 10px 0px;
+//             gap: 2rem;
+
+//             h2 {
+//                 margin-bottom: 3rem;
+//             }
+
+//             p {
+//                 border: 3px solid rgb(211, 98, 98);
+//                 width: 100px;
+//                 height: 30px;
+//                 cursor: pointer;
+//             }
+//         }
+//     }
+
+//     .smallContentBlog {
+//         text-align: center;
+//           line-height: 3;
+//         .smallContent{
+//             display: flex;
+//             margin-bottom: 4rem;
+//             p{
+//                 width: 100px;
+//                 padding-top: 10px;
+//             }
+//             img{
+//                 width: 300px;
+//                 height: 200px;
+//             }
+//         }
+//     }
+
+
+// }

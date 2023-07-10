@@ -78,8 +78,6 @@ For the  writeup */}
               saepe officiis voluptas odio ipsam corrupti quis,
               voluptatum quia perspiciatis temporibus beatae. Perferendis hic ad quidem.
             </p>
-            <br />
-
           </div>
 
           {/* third content */}
@@ -102,7 +100,6 @@ For the  writeup */}
               </p>
             </div>
           </div>
-          <br />
           <div className={blogpage.lastContent}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -116,7 +113,6 @@ For the  writeup */}
               saepe officiis voluptas odio ipsam corrupti quis,
               voluptatum quia perspiciatis temporibus beatae. Perferendis hic ad quidem.
             </p>
-            <br /> <br />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Beatae labore non ea adipisci inventore neque iure dignissimos
@@ -169,7 +165,9 @@ For the  writeup */}
 
 
         <div className={blogpage.smallContentBlog}>
-              <h2>Read Next</h2>
+        <div className={blogpage.smallContentBlogTitle}>
+        <h2>Read Next</h2>
+        </div>
               <div className={blogpage.smallContent}>
                     <img src={c} alt="" />
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
