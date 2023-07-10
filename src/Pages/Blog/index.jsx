@@ -159,10 +159,31 @@ For the about us writeup */}
                      <p>March 2020</p>
                      <p>June 2020</p>
                </div>
-
-
-
         </div>
+
+
+        <div className={blogpage.achives}>
+              <h5>Read Next</h5>
+              <div className={blogpage.smallContent}>
+                    <img src="c" alt="" />
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                      Ratione laboriosam, facere, iure aliquam temporibus 
+                      odio nisi provident sunt quod quam aspernatur amet incidunt!</p>
+              </div>
+
+
+              <div className={blogpage.smallContent}>
+                    <img src="c" alt="" />
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                      Ratione laboriosam, facere, iure aliquam temporibus 
+                      odio nisi provident sunt quod quam aspernatur amet incidunt!</p>
+              </div>
+
+              </div>
+
+
+
+
         </div>
 
        
