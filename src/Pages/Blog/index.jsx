@@ -9,17 +9,20 @@ const Blog = () => {
   return (
     <div>
       {/* 
-For the about us writeup */}
+For the  writeup */}
 
       <div className={blogpage.title}>
         <h1>The Top Ten Most Expensive perfumes in The World</h1>
       </div>
 
       {/* grid container */}
+
       <div className={blogpage.blogpage}>
+
         {/* 
         content
          */}
+
         <div className={blogpage.content}>
 
           <div className={blogpage.blogs}>
@@ -127,13 +130,16 @@ For the about us writeup */}
 
 
         </div>
+
         {/* sideContent */}
+
         <div className={blogpage.sideContent}>
            {/* search categories */}
         <div className={blogpage.searchBoxCategories}>
-            <input type="text" />
+            <input type="text" placeholder='Search'/>
 
             <ul>
+             <h2>Categories</h2>
               <li><a href="">Development(20)</a></li>
               <li><a href="">Designs(40)</a></li>
               <li><a href="">LifeStyle(14)</a></li>
