@@ -1,5 +1,6 @@
 import login from '../Login/loginPage.module.scss'
 // import dope from '../../assets/img/HeaderImg/dope.jpg'
+import { FaGoogle } from 'react-icons/fa'
 
 const Login = () => {
     return (
@@ -52,7 +53,14 @@ const Login = () => {
                                   <h3>Create an Account</h3>
                             </div>
                             </div>
-                           
+                         {/* signUp with google    */}
+                         <div className={login.drive}> 
+                         <div className={login.google}>
+                             <FaGoogle></FaGoogle>
+                             <p>Sign Up with Google</p>
+                        </div>
+                         </div>
+                        
 
                         </div>
 
