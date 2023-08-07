@@ -1,0 +1,13 @@
+@import '../../assets/styles/breakpoints.scss';
+
+.error{
+
+@include largeDevices {
+    display: grid;
+    place-content: center;
+    margin-top: 3rem;
+    height: 400px;
+    font-size: xx-large;
+}
+
+}

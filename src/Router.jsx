@@ -5,6 +5,7 @@ import Blog from './Pages/Blog'
 import Shop from './Pages/Shop'
 import Contact from './Pages/Contact'
 import Login from './Pages/Login/Login'
+import ErrorPage from './Pages/ErrorPage/ErrorPage'
 import MainLayout from './Layout/MainLayout'
 
 const Router = () => {
@@ -18,6 +19,7 @@ const Router = () => {
     <Route  path="/blog" element={<Blog />} />
     <Route  path="/contact" element={<Contact />} />
    <Route path="/login" element={<Login />} />
+   <Route path="*" element={<ErrorPage />} />
     </Route>
   
   </Route>
