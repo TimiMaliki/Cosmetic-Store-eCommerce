@@ -1,5 +1,4 @@
 import navbar from '../assets/styles/navbar.module.scss'
-
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
